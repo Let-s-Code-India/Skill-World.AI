@@ -1,1 +1,864 @@
-
+{
+ "version": 1,
+ "note": "Key -> file. To replace an image: upload a file with the SAME name (or change the file name in this list and bump version).",
+ "badges": [
+  {
+   "key": "badge-01",
+   "no": 1,
+   "name": "Velocity Spark",
+   "tier": "gold",
+   "field": "velocity",
+   "file": "badges/badge-01_velocity-spark_gold.svg"
+  },
+  {
+   "key": "badge-02",
+   "no": 2,
+   "name": "Surge Node",
+   "tier": "gold",
+   "field": "velocity",
+   "file": "badges/badge-02_surge-node_gold.svg"
+  },
+  {
+   "key": "badge-03",
+   "no": 3,
+   "name": "Rapid Traction",
+   "tier": "platinum",
+   "field": "velocity",
+   "file": "badges/badge-03_rapid-traction_platinum.svg"
+  },
+  {
+   "key": "badge-04",
+   "no": 4,
+   "name": "Traffic Storm",
+   "tier": "heroic",
+   "field": "velocity",
+   "file": "badges/badge-04_traffic-storm_heroic.svg"
+  },
+  {
+   "key": "badge-05",
+   "no": 5,
+   "name": "Multi-Post Velocity",
+   "tier": "gold",
+   "field": "velocity",
+   "file": "badges/badge-05_multi-post-velocity_gold.svg"
+  },
+  {
+   "key": "badge-06",
+   "no": 6,
+   "name": "The 1M Collective",
+   "tier": "diamond",
+   "field": "velocity",
+   "file": "badges/badge-06_the-1m-collective_diamond.svg"
+  },
+  {
+   "key": "badge-07",
+   "no": 7,
+   "name": "Viral Velocity",
+   "tier": "heroic",
+   "field": "velocity",
+   "file": "badges/badge-07_viral-velocity_heroic.svg"
+  },
+  {
+   "key": "badge-08",
+   "no": 8,
+   "name": "Blitzscale Node",
+   "tier": "platinum",
+   "field": "velocity",
+   "file": "badges/badge-08_blitzscale-node_platinum.svg"
+  },
+  {
+   "key": "badge-09",
+   "no": 9,
+   "name": "Omni-Traffic Master",
+   "tier": "master",
+   "field": "velocity",
+   "file": "badges/badge-09_omni-traffic-master_master.svg"
+  },
+  {
+   "key": "badge-10",
+   "no": 10,
+   "name": "Apex Wave",
+   "tier": "platinum",
+   "field": "velocity",
+   "file": "badges/badge-10_apex-wave_platinum.svg"
+  },
+  {
+   "key": "badge-11",
+   "no": 11,
+   "name": "Initial Circle",
+   "tier": "gold",
+   "field": "network",
+   "file": "badges/badge-11_initial-circle_gold.svg"
+  },
+  {
+   "key": "badge-12",
+   "no": 12,
+   "name": "The 1k Node",
+   "tier": "gold",
+   "field": "network",
+   "file": "badges/badge-12_the-1k-node_gold.svg"
+  },
+  {
+   "key": "badge-13",
+   "no": 13,
+   "name": "Substantial Base",
+   "tier": "heroic",
+   "field": "network",
+   "file": "badges/badge-13_substantial-base_heroic.svg"
+  },
+  {
+   "key": "badge-14",
+   "no": 14,
+   "name": "Elite Network I",
+   "tier": "platinum",
+   "field": "network",
+   "file": "badges/badge-14_elite-network-i_platinum.svg"
+  },
+  {
+   "key": "badge-15",
+   "no": 15,
+   "name": "Professional Authority",
+   "tier": "heroic",
+   "field": "network",
+   "file": "badges/badge-15_professional-authority_heroic.svg"
+  },
+  {
+   "key": "badge-16",
+   "no": 16,
+   "name": "Mentor Circuit",
+   "tier": "gold",
+   "field": "network",
+   "file": "badges/badge-16_mentor-circuit_gold.svg"
+  },
+  {
+   "key": "badge-17",
+   "no": 17,
+   "name": "High-Signal Followers",
+   "tier": "heroic",
+   "field": "network",
+   "file": "badges/badge-17_high-signal-followers_heroic.svg"
+  },
+  {
+   "key": "badge-18",
+   "no": 18,
+   "name": "Gravity Node",
+   "tier": "heroic",
+   "field": "network",
+   "file": "badges/badge-18_gravity-node_heroic.svg"
+  },
+  {
+   "key": "badge-19",
+   "no": 19,
+   "name": "Network Grandmaster",
+   "tier": "platinum",
+   "field": "network",
+   "file": "badges/badge-19_network-grandmaster_platinum.svg"
+  },
+  {
+   "key": "badge-20",
+   "no": 20,
+   "name": "SkillTube Luminary",
+   "tier": "diamond",
+   "field": "network",
+   "file": "badges/badge-20_skilltube-luminary_diamond.svg"
+  },
+  {
+   "key": "badge-21",
+   "no": 21,
+   "name": "Cross-Border Node",
+   "tier": "gold",
+   "field": "global",
+   "file": "badges/badge-21_cross-border-node_gold.svg"
+  },
+  {
+   "key": "badge-22",
+   "no": 22,
+   "name": "Global Citizen",
+   "tier": "gold",
+   "field": "global",
+   "file": "badges/badge-22_global-citizen_gold.svg"
+  },
+  {
+   "key": "badge-23",
+   "no": 23,
+   "name": "Multinational Authority",
+   "tier": "platinum",
+   "field": "global",
+   "file": "badges/badge-23_multinational-authority_platinum.svg"
+  },
+  {
+   "key": "badge-24",
+   "no": 24,
+   "name": "Blue Tick Creator",
+   "tier": "diamond",
+   "field": "global",
+   "file": "badges/badge-24_blue-tick-creator_diamond.svg"
+  },
+  {
+   "key": "badge-25",
+   "no": 25,
+   "name": "Elite Blue Tick",
+   "tier": "diamond",
+   "field": "global",
+   "file": "badges/badge-25_elite-blue-tick_diamond.svg"
+  },
+  {
+   "key": "badge-26",
+   "no": 26,
+   "name": "Global Master Tick",
+   "tier": "master",
+   "field": "global",
+   "file": "badges/badge-26_global-master-tick_master.svg"
+  },
+  {
+   "key": "badge-27",
+   "no": 27,
+   "name": "Pan-Global Architect",
+   "tier": "gold",
+   "field": "global",
+   "file": "badges/badge-27_pan-global-architect_gold.svg"
+  },
+  {
+   "key": "badge-28",
+   "no": 28,
+   "name": "Elite Creator Network",
+   "tier": "diamond",
+   "field": "global",
+   "file": "badges/badge-28_elite-creator-network_diamond.svg"
+  },
+  {
+   "key": "badge-29",
+   "no": 29,
+   "name": "Global Mastermind",
+   "tier": "master",
+   "field": "global",
+   "file": "badges/badge-29_global-mastermind_master.svg"
+  },
+  {
+   "key": "badge-30",
+   "no": 30,
+   "name": "Global Legend",
+   "tier": "master",
+   "field": "global",
+   "file": "badges/badge-30_global-legend_master.svg"
+  },
+  {
+   "key": "badge-31",
+   "no": 31,
+   "name": "Global Surge Node",
+   "tier": "gold",
+   "field": "fusion",
+   "file": "badges/badge-31_global-surge-node_gold.svg"
+  },
+  {
+   "key": "badge-32",
+   "no": 32,
+   "name": "Cross-Border Storm",
+   "tier": "platinum",
+   "field": "fusion",
+   "file": "badges/badge-32_cross-border-storm_platinum.svg"
+  },
+  {
+   "key": "badge-33",
+   "no": 33,
+   "name": "Multi-Nation Million",
+   "tier": "diamond",
+   "field": "fusion",
+   "file": "badges/badge-33_multi-nation-million_diamond.svg"
+  },
+  {
+   "key": "badge-34",
+   "no": 34,
+   "name": "Velocity Mastermind",
+   "tier": "platinum",
+   "field": "fusion",
+   "file": "badges/badge-34_velocity-mastermind_platinum.svg"
+  },
+  {
+   "key": "badge-35",
+   "no": 35,
+   "name": "Worldwide Apex",
+   "tier": "heroic",
+   "field": "fusion",
+   "file": "badges/badge-35_worldwide-apex_heroic.svg"
+  },
+  {
+   "key": "badge-36",
+   "no": 36,
+   "name": "Pan-Global Flash",
+   "tier": "master",
+   "field": "fusion",
+   "file": "badges/badge-36_pan-global-flash_master.svg"
+  },
+  {
+   "key": "badge-37",
+   "no": 37,
+   "name": "International Velocity Elite",
+   "tier": "heroic",
+   "field": "fusion",
+   "file": "badges/badge-37_international-velocity-elite_heroic.svg"
+  },
+  {
+   "key": "badge-38",
+   "no": 38,
+   "name": "Collective Cross-Node",
+   "tier": "diamond",
+   "field": "fusion",
+   "file": "badges/badge-38_collective-cross-node_diamond.svg"
+  },
+  {
+   "key": "badge-39",
+   "no": 39,
+   "name": "Global Blitz Architect",
+   "tier": "platinum",
+   "field": "fusion",
+   "file": "badges/badge-39_global-blitz-architect_platinum.svg"
+  },
+  {
+   "key": "badge-40",
+   "no": 40,
+   "name": "Planetary Wave",
+   "tier": "master",
+   "field": "fusion",
+   "file": "badges/badge-40_planetary-wave_master.svg"
+  },
+  {
+   "key": "badge-41",
+   "no": 41,
+   "name": "Blue Authority",
+   "tier": "diamond",
+   "field": "authority",
+   "file": "badges/badge-41_blue-authority_diamond.svg"
+  },
+  {
+   "key": "badge-42",
+   "no": 42,
+   "name": "Master Tick Elite",
+   "tier": "master",
+   "field": "authority",
+   "file": "badges/badge-42_master-tick-elite_master.svg"
+  },
+  {
+   "key": "badge-43",
+   "no": 43,
+   "name": "Peer-Powered Core",
+   "tier": "platinum",
+   "field": "authority",
+   "file": "badges/badge-43_peer-powered-core_platinum.svg"
+  },
+  {
+   "key": "badge-44",
+   "no": 44,
+   "name": "Network Luminary",
+   "tier": "diamond",
+   "field": "authority",
+   "file": "badges/badge-44_network-luminary_diamond.svg"
+  },
+  {
+   "key": "badge-45",
+   "no": 45,
+   "name": "The 1M Blue Node",
+   "tier": "master",
+   "field": "authority",
+   "file": "badges/badge-45_the-1m-blue-node_master.svg"
+  },
+  {
+   "key": "badge-46",
+   "no": 46,
+   "name": "Ultimate Network Grandmaster",
+   "tier": "diamond",
+   "field": "authority",
+   "file": "badges/badge-46_ultimate-network-grandmaster_diamond.svg"
+  },
+  {
+   "key": "badge-47",
+   "no": 47,
+   "name": "Global Peer Collective",
+   "tier": "heroic",
+   "field": "authority",
+   "file": "badges/badge-47_global-peer-collective_heroic.svg"
+  },
+  {
+   "key": "badge-48",
+   "no": 48,
+   "name": "Legendary Blue Node",
+   "tier": "master",
+   "field": "authority",
+   "file": "badges/badge-48_legendary-blue-node_master.svg"
+  },
+  {
+   "key": "badge-49",
+   "no": 49,
+   "name": "Supreme Curator",
+   "tier": "heroic",
+   "field": "authority",
+   "file": "badges/badge-49_supreme-curator_heroic.svg"
+  },
+  {
+   "key": "badge-50",
+   "no": 50,
+   "name": "SkillTube Legend",
+   "tier": "master",
+   "field": "authority",
+   "file": "badges/badge-50_skilltube-legend_master.svg"
+  }
+ ],
+ "weekly": [
+  {
+   "key": "weekly-apex-10",
+   "name": "Apex Ten",
+   "tier": "master",
+   "file": "badges/weekly_apex-10_master.svg"
+  },
+  {
+   "key": "weekly-challenger-30",
+   "name": "Challenger 30",
+   "tier": "heroic",
+   "file": "badges/weekly_challenger-30_heroic.svg"
+  },
+  {
+   "key": "weekly-climber-40",
+   "name": "Climber 40",
+   "tier": "platinum",
+   "file": "badges/weekly_climber-40_platinum.svg"
+  },
+  {
+   "key": "weekly-contender-20",
+   "name": "Contender 20",
+   "tier": "diamond",
+   "file": "badges/weekly_contender-20_diamond.svg"
+  },
+  {
+   "key": "weekly-rise-50",
+   "name": "Rising 50",
+   "tier": "gold",
+   "file": "badges/weekly_rise-50_gold.svg"
+  }
+ ],
+ "ticks": [
+  {
+   "key": "tick-blue",
+   "name": "Blue Tick",
+   "file": "ticks/tick_blue.svg"
+  },
+  {
+   "key": "tick-master-gold",
+   "name": "Master Tick",
+   "file": "ticks/tick_master-gold.svg"
+  }
+ ],
+ "tiers": [
+  {
+   "key": "tier-diamond",
+   "name": "Diamond tier",
+   "file": "tiers/tier_diamond.svg"
+  },
+  {
+   "key": "tier-gold",
+   "name": "Gold tier",
+   "file": "tiers/tier_gold.svg"
+  },
+  {
+   "key": "tier-heroic",
+   "name": "Heroic tier",
+   "file": "tiers/tier_heroic.svg"
+  },
+  {
+   "key": "tier-master",
+   "name": "Master tier",
+   "file": "tiers/tier_master.svg"
+  },
+  {
+   "key": "tier-platinum",
+   "name": "Platinum tier",
+   "file": "tiers/tier_platinum.svg"
+  }
+ ],
+ "fields": [
+  {
+   "key": "field-1",
+   "name": "velocity",
+   "file": "fields/field-1_velocity.svg"
+  },
+  {
+   "key": "field-2",
+   "name": "network",
+   "file": "fields/field-2_network.svg"
+  },
+  {
+   "key": "field-3",
+   "name": "global",
+   "file": "fields/field-3_global.svg"
+  },
+  {
+   "key": "field-4",
+   "name": "fusion",
+   "file": "fields/field-4_fusion.svg"
+  },
+  {
+   "key": "field-5",
+   "name": "authority",
+   "file": "fields/field-5_authority.svg"
+  }
+ ],
+ "skill_backgrounds": [
+  {
+   "key": "skill-bg-01",
+   "name": "waves",
+   "file": "templates/skill-backgrounds/skill-background_01_waves.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-02",
+   "name": "rounded-tiles",
+   "file": "templates/skill-backgrounds/skill-background_02_rounded-tiles.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-03",
+   "name": "hexagons",
+   "file": "templates/skill-backgrounds/skill-background_03_hexagons.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-04",
+   "name": "sunburst",
+   "file": "templates/skill-backgrounds/skill-background_04_sunburst.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-05",
+   "name": "circuit",
+   "file": "templates/skill-backgrounds/skill-background_05_circuit.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-06",
+   "name": "bubbles",
+   "file": "templates/skill-backgrounds/skill-background_06_bubbles.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-07",
+   "name": "stripes",
+   "file": "templates/skill-backgrounds/skill-background_07_stripes.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-08",
+   "name": "dots",
+   "file": "templates/skill-backgrounds/skill-background_08_dots.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-09",
+   "name": "contour-blobs",
+   "file": "templates/skill-backgrounds/skill-background_09_contour-blobs.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-10",
+   "name": "triangles",
+   "file": "templates/skill-backgrounds/skill-background_10_triangles.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-11",
+   "name": "rings",
+   "file": "templates/skill-backgrounds/skill-background_11_rings.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-12",
+   "name": "zigzag-chevrons",
+   "file": "templates/skill-backgrounds/skill-background_12_zigzag-chevrons.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-13",
+   "name": "plus-signs",
+   "file": "templates/skill-backgrounds/skill-background_13_plus-signs.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-14",
+   "name": "ribbons",
+   "file": "templates/skill-backgrounds/skill-background_14_ribbons.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-15",
+   "name": "sparkles",
+   "file": "templates/skill-backgrounds/skill-background_15_sparkles.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-16",
+   "name": "cubes",
+   "file": "templates/skill-backgrounds/skill-background_16_cubes.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-17",
+   "name": "diamond-lines",
+   "file": "templates/skill-backgrounds/skill-background_17_diamond-lines.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-18",
+   "name": "zigzag-lines",
+   "file": "templates/skill-backgrounds/skill-background_18_zigzag-lines.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-19",
+   "name": "paper-layers",
+   "file": "templates/skill-backgrounds/skill-background_19_paper-layers.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "skill-bg-20",
+   "name": "pixels",
+   "file": "templates/skill-backgrounds/skill-background_20_pixels.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  }
+ ],
+ "channel_logos": [
+  {
+   "key": "channel-logo-01",
+   "name": "target-rings",
+   "file": "templates/channel-logos/channel-logo_01_target-rings.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-02",
+   "name": "sun-rays",
+   "file": "templates/channel-logos/channel-logo_02_sun-rays.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-03",
+   "name": "hex-cluster",
+   "file": "templates/channel-logos/channel-logo_03_hex-cluster.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-04",
+   "name": "atom-orbits",
+   "file": "templates/channel-logos/channel-logo_04_atom-orbits.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-05",
+   "name": "chevron-disc",
+   "file": "templates/channel-logos/channel-logo_05_chevron-disc.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-06",
+   "name": "mosaic",
+   "file": "templates/channel-logos/channel-logo_06_mosaic.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-07",
+   "name": "wave-disc",
+   "file": "templates/channel-logos/channel-logo_07_wave-disc.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-08",
+   "name": "star-sun",
+   "file": "templates/channel-logos/channel-logo_08_star-sun.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-09",
+   "name": "gear",
+   "file": "templates/channel-logos/channel-logo_09_gear.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-10",
+   "name": "flower",
+   "file": "templates/channel-logos/channel-logo_10_flower.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-11",
+   "name": "spiral-dots",
+   "file": "templates/channel-logos/channel-logo_11_spiral-dots.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  },
+  {
+   "key": "channel-logo-12",
+   "name": "cube",
+   "file": "templates/channel-logos/channel-logo_12_cube.svg",
+   "placeholders": [
+    "__C1__",
+    "__C2__",
+    "__C3__"
+   ]
+  }
+ ],
+ "ui": [
+  {
+   "key": "badge-locked",
+   "file": "ui/ui_badge-locked.svg"
+  },
+  {
+   "key": "badge-revoked-overlay",
+   "file": "ui/ui_badge-revoked-overlay.svg"
+  }
+ ],
+ "app": [
+  {
+   "key": "favicon",
+   "file": "app/favicon.svg"
+  },
+  {
+   "key": "icon-192",
+   "file": "app/app-icon-192.png"
+  },
+  {
+   "key": "icon-512",
+   "file": "app/app-icon-512.png"
+  },
+  {
+   "key": "icon-maskable-512",
+   "file": "app/app-icon-maskable-512.png"
+  },
+  {
+   "key": "push-badge-96",
+   "file": "app/app-push-badge-96.png"
+  },
+  {
+   "key": "push-icon-192",
+   "file": "app/app-push-icon-192.png"
+  }
+ ]
+}
